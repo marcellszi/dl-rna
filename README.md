@@ -70,7 +70,7 @@ optional arguments:
 
 For example, training the model using the family-fold 5S rRNA split provided with the release (including validation and testing sets), and saving to a sub-directory `5s`:
 ```
-$ python train.py data/ct/5s/train data/ct/5s/valid 5s --test_path data/ct/5s/test
+$ python train.py data/ct/fam-fold/5s/train data/ct/fam-fold/5s/valid 5s --test_path data/ct/fam-fold/5s/test
 ```
 
 ## Prediction
@@ -100,7 +100,7 @@ optional arguments:
 
 For example, testing the model fit in the above example, using the family-fold 5S rRNA test split provided with the release:
 ```
-$ python predict.py 5s data/seq/5s/test 5s
+$ python predict.py 5s data/seq/fam-fold/5s/test 5s
 ```
 
 
@@ -125,7 +125,7 @@ optional arguments:
 
 For example, evaluating the data predicted in the above example, and saving to `5s/results.csv`:
 ```
-$ python evaluate.py 5s/ct data/ct/5s/test 5s/results.csv
+$ python evaluate.py 5s/ct data/ct/fam-fold/5s/test 5s/results.csv
 ```
 
 ## References
