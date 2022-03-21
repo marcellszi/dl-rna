@@ -1,0 +1,10 @@
+{
+    "rnastructureexe_path": "RNAstructure/exe",
+    "rnastructuredata_path": "RNAstructure/data_tables",
+    "device": null,
+    "cpus": null,
+    "max_length": 512,
+    "max_epochs": 1024,
+    "early_stopping_patience": 10,
+    "batch_size": 256
+}
