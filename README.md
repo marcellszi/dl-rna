@@ -1,7 +1,7 @@
 # Deep learning models for RNA secondary structure prediction
 Github repository for the paper:
 
-M. Szikszai, M. Wise, A. Datta, M. Ward, and D.H. Mathews, *‘Deep learning models for RNA secondary structure prediction (probably) do not generalise across families’*, bioRxiv, Mar. 2022
+M. Szikszai, M. Wise, A. Datta, M. Ward, and D.H. Mathews, *‘Deep learning models for RNA secondary structure prediction (probably) do not generalise across families’*, bioRxiv, Mar. 2022, doi: [10.1101/2022.03.21.485135](https://www.biorxiv.org/content/10.1101/2022.03.21.485135v1)
 
 
 ## Abstract
